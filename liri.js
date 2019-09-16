@@ -35,7 +35,7 @@ var pick = function(caseData, functionData){
         case 'spotify-this-song':
             getMySpotify(functionData);
             break;
-        default:
+        default: 'artist(s): Ace of Base ' + 'song name: The Sign'
             console.log('Liri does not know this');
     }
 }
